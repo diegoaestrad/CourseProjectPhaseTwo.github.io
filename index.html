@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Diego Estrada</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" async></script>
+    <script src="apis.js" async></script>
+    <script src="weather.js" async></script>
+</head>
+
+<body>
+    <div class="upper">
+        <h5>Diego Alejandro Estrada Beltran - 200427046</h5>
+    </div>
+    <div class="middle">
+        <div class="tododiv">
+            <h1>To-do List</h1>
+            To Do Item:
+            <input id="intext" class="inputText"> </input>
+            <button id="btnadd" class="addBtn"> Add Element</button>
+            <!--   <span onclick="newElement()" class="addBtn">Add</span>-->
+            <ul id="uldiego" class="uldiego"></ul>
+        </div>
+    </div>
+    <div class="bottom">
+        <header>
+            <div class="batterydiv">
+                <div class="isConnected">
+                    <h6 id="textToShow" class="textToShow"> </h6>
+                </div>
+                <h5 id="batterylevel" class="batterylevel"> </h5>
+            </div>
+
+            <div class="input">
+                <p>Weather in your current City is: </p>
+                <!--
+                    <input type="text" class="inputcity" placeholder="Type a City">
+                    <input type="submit" class="submitweather">
+                    <div class="location"> <p>-</p> </div>
+                    <div class="temperature-value"><p>- °<span>C</span></p></div>
+                    <div class="weather-icon"><img src="icons/unknown.png" alt=""></div>
+                -->
+                <div class="tempfromjson">
+                    <p>º<span>C</span></p>
+                </div>
+                <div class="notification"> </div>
+                <div class="weather-container">
+                    <div class="skyStatus">
+                        <p> - </p>
+                    </div>
+                    <div class="location">
+                        <p>-</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+    <!--
+    <div class="cheapplaces">
+        <section>
+            <h3>This section shows cheap flights from your nearest airport</h3>
+        </section>
+    </div>-->
+    <script src="" async defer></script>
+    <footer class="footer">
+        <h7 class="footerP">© <a href="https://www.facebook.com/diegoaestrad">Diego Estrada</a> 2020 ©</h7>
+    </footer>
+
+</body>
+
+</html>

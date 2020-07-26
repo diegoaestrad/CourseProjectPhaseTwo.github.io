@@ -1,0 +1,133 @@
+html {
+    background-color: darkgreen;
+    border-radius: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+body {
+    border-radius: 20px;
+    border-style: groove;
+}
+
+.textToShow {
+    text-align: center;
+    color: rgb(97, 6, 0);
+}
+
+.input {
+    background-color: palegreen;
+    border-radius: 50px;
+    border-style: double;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+ul {
+    /*width: auto;*/
+    left: 50%;
+}
+
+.middle {
+    background-color: darkslateblue;
+    color: floralwhite;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 30px;
+}
+
+.upper {
+    background: linear-gradient(90deg, rgb(72, 164, 224), rgb(95, 91, 172), rgb(129, 255, 160), rgb(95, 91, 172), rgba(0, 212, 255, 1));
+    margin: 30px;
+    border-radius: 20px;
+    border-style: dashed;
+    border-color: darkred;
+}
+
+.bottom {
+    background: linear-gradient(90deg, rgb(72, 164, 224), rgb(95, 91, 172), rgb(129, 255, 160), rgb(95, 91, 172), rgba(0, 212, 255, 1));
+    border-radius: 20px;
+    margin: 30px;
+    border-style: dashed;
+    border-color: darkred;
+}
+
+.uldiego {
+    min-height: 40px;
+    height: auto;
+    border-style: groove;
+    padding: 40 px;
+}
+
+li.Checked {
+    text-decoration: line-through;
+    color: green;
+    text-align: center;
+}
+
+.isConnected {
+    border-style: dotted;
+    min-width: 100px;
+    min-height: 50px;
+    border-radius: 25px;
+    background-color: lightblue;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 500px;
+    align-self: center;
+    object-position: center;
+}
+
+h5 {
+    color: indigo;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    background-image: inherit;
+}
+
+.footer {
+    background-color: #005679;
+    border-radius: 20px;
+    margin: 0;
+    padding: 5px;
+    width: auto;
+    height: 20px;
+    float: inline-end;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+.tododiv {
+    text-align: left;
+}
+
+
+div.batterychargerheader {
+    float: inline-end;
+    padding: 5px;
+    border-color: darkgreen;
+    border-style: dotted;
+    height: 200px;
+    width: 20%;
+}
+
+.footerP {
+    text-align: center;
+
+    color: orangered;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
