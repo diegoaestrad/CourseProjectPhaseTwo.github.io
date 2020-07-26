@@ -39,7 +39,7 @@ function addElement() {
   console.log(deleteClickedItem);
 
   let ulItems = document.querySelectorAll("ul");
-  
+
   for (i = 0; i < checkboxSelectedItem.length; i++) {
     checkboxSelectedItem[i].onclick = function (e) {
       let item = document.getElementsByClassName("uldiego");
@@ -48,16 +48,16 @@ function addElement() {
       let li = this.parentElement;
       console.log(item);
 
-      if(li.style.textDecoration == "line-through"){
+      if (li.style.textDecoration == "line-through") {
         li.style.textDecoration = ""; // this line works but its not possible to remove the line when unselected
         li.style.color = "white";
         //item.appendChild(li);
         ul.appendChild(li);
-      }else{
+      } else {
         li.style.textDecoration = "line-through"; // this line works but its not possible to remove the line when unselected
         li.style.color = "darkred";
         //ulItems.checkboxSelectedItem.length.appendChild(elementClicked);
-        
+
         /*ssendToTheEnd;*/
       }
       //item.appendChild(li);
@@ -65,12 +65,12 @@ function addElement() {
     }
   }
 
-  function sendToTheEnd(e){
+  function sendToTheEnd(e) {
     let elementClicked = e.target;
     ulItems.appendChild(li);
-    
+
     /*divweaher.appendChild(elementClicked);
-    */
+     */
   }
 
   //delete working
@@ -86,9 +86,9 @@ function addElement() {
 
 
 if ('ondevicelight' in window) {
-  window.addEventListener('devicelight', function(event) {
+  window.addEventListener('devicelight', function (event) {
     var body = document.querySelector('body');
-    console.log('value: '+event.value);
+    console.log('value: ' + event.value);
     if (event.value < 50) {
       body.classList.add('darklight');
       body.classList.remove('brightlight');
